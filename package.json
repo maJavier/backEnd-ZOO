@@ -1,0 +1,27 @@
+{
+  "name": "proyecyvicbackend",
+  "version": "1.0.0",
+  "description": "Api RESTful de proyectvic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Javier A",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/compiler-cli": "^4.4.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.1",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.15.4",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.12",
+    "multiparty": "^4.1.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.4.3",
+    "nodemon": "^1.12.1"
+  }
+}
